@@ -32,7 +32,6 @@ Algorithm: dynamic programming
 
 """
 
-
 class Solution(object):
     def combinationSum4(self, nums, target):
         """
@@ -42,14 +41,11 @@ class Solution(object):
         """
 
         def comb(nums, target, lookup):
-
             res = 0
-
             if target == 0:
                 return 1
             if target < 0:
                 return 0
-
             for num in nums:
                 if num > target:
                     break
@@ -63,11 +59,9 @@ class Solution(object):
 
         nums.sort()
         lookup = {}
-
         return comb(nums, target, lookup)
 
 if __name__ == "__main__":
     nums = [4, 2, 1]
     target = 32
-
     print Solution().combinationSum4(nums, target)
