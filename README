@@ -1,0 +1,25 @@
+DISCUSSION:
+
+448: Runtime: 368 ms
+
+119: my solution O(k) space?
+
+121: how to use dynamic programming
+
+161: O(n) time and O(1) space: https://discuss.leetcode.com/topic/8692/o-n-time-o-1-space-fastest-solution
+
+189: what is the space complexity of soln 1?
+
+349: check other solution: https://github.com/kamyu104/LeetCode/blob/master/Python/intersection-of-two-arrays.py
+
+350: how to deal with memory limit? external sort? complexity? cannot see how this works:
+    https://github.com/kamyu104/LeetCode/blob/master/Python/intersection-of-two-arrays-ii.py
+
+274: H index: why is the time complexity O(n log n): https://github.com/kamyu104/LeetCode/blob/master/Python/h-index.py
+     Answer: because of O(n log n) sorting time + linear scan time
+
+253: need explanation on this solution: https://github.com/kamyu104/LeetCode/blob/master/Python/meeting-rooms-ii.py
+
+38: complexity analysis? Also what about solution here https://github.com/kamyu104/LeetCode/blob/master/Python/count-and-say.py ?
+
+377: complexity analysis?
