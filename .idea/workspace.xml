@@ -60,11 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="461_hamming_distance.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="461_hamming_distance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/461_hamming_distance.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="599">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="477_total_hamming_distance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/477_total_hamming_distance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/66_plus_one.py" />
         <option value="$PROJECT_DIR$/217_contain_duplicates.py" />
         <option value="$PROJECT_DIR$/26_remove_duplicates_from_sorted_array.py" />
         <option value="$PROJECT_DIR$/349_intersection_of_two_arrays.py" />
@@ -155,6 +164,7 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/377_combination_sum_iv.py" />
         <option value="$PROJECT_DIR$/461_hamming_distance.py" />
+        <option value="$PROJECT_DIR$/477_total_hamming_distance.py" />
       </list>
     </option>
   </component>
@@ -230,24 +240,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_data_structure" />
   </component>
-  <component name="RunManager" selected="Python.461_hamming_distance">
-    <configuration default="false" name="253_meeting_room_ii" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/253_meeting_room_ii.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.477_total_hamming_distance">
     <configuration default="false" name="38_count_and_say" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,6 +305,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/461_hamming_distance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="477_total_hamming_distance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/477_total_hamming_distance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -451,19 +461,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.253_meeting_room_ii" />
-      <item index="1" class="java.lang.String" itemvalue="Python.38_count_and_say" />
-      <item index="2" class="java.lang.String" itemvalue="Python.15_3sum" />
-      <item index="3" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
-      <item index="4" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.38_count_and_say" />
+      <item index="1" class="java.lang.String" itemvalue="Python.15_3sum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
+      <item index="3" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
+      <item index="4" class="java.lang.String" itemvalue="Python.477_total_hamming_distance" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
-        <item index="1" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
-        <item index="2" class="java.lang.String" itemvalue="Python.15_3sum" />
-        <item index="3" class="java.lang.String" itemvalue="Python.38_count_and_say" />
-        <item index="4" class="java.lang.String" itemvalue="Python.253_meeting_room_ii" />
+        <item index="0" class="java.lang.String" itemvalue="Python.477_total_hamming_distance" />
+        <item index="1" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
+        <item index="2" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
+        <item index="3" class="java.lang.String" itemvalue="Python.15_3sum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.38_count_and_say" />
       </list>
     </recent_temporary>
   </component>
@@ -522,13 +532,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/88_merge_sorted_array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/283_remove_zeros.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
@@ -888,6 +891,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/477_total_hamming_distance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
