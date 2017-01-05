@@ -54,7 +54,7 @@ class Solution(object):
 if __name__ == "__main__":
     nums = [9, 8, 1, 10, 3, 0, 1, -10, 2, 8]
 
-    # print Solution().increasingTriplet(nums)
-    # print Solution().increasingKUplet(nums, 3)
+    print Solution().increasingTriplet(nums)
+    print Solution().increasingKUplet(nums, 3)
     print Solution().increasingKUplet(nums, 4)
-    # print Solution().increasingKUplet(nums, 5)
+    print Solution().increasingKUplet(nums, 5)
