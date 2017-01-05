@@ -18,6 +18,10 @@ return false.
 
 """
 
+# Time: O(n); Space: O(1)
+
+import bisect
+
 class Solution(object):
     def increasingTriplet(self, nums):
         """
@@ -33,3 +37,24 @@ class Solution(object):
             else:
                 return True
         return False
+
+    """
+    Generalize to k-uplet: use bisection algorithm
+    """
+    def increasingKUplet(self, nums, k):
+        inc = [float('inf')] * (k - 1)
+        for num in nums:
+            i = bisect.bisect_left(inc, num)
+            if i == k - 1:
+                return True
+            inc[i] = num
+        return k == 0 # consider case of k = 0
+
+
+if __name__ == "__main__":
+    nums = [9, 8, 1, 10, 3, 0, 1, -10, 2, 8]
+
+    # print Solution().increasingTriplet(nums)
+    # print Solution().increasingKUplet(nums, 3)
+    print Solution().increasingKUplet(nums, 4)
+    # print Solution().increasingKUplet(nums, 5)

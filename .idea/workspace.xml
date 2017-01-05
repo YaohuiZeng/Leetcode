@@ -23,8 +23,8 @@
       <file leaf-file-name="334_increasing_triplet_subsequence.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/334_increasing_triplet_subsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="650">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,24 +168,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_data_structure" />
   </component>
-  <component name="RunManager" selected="Python.398_random_pick_index">
-    <configuration default="false" name="15_3sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15_3sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.334_increasing_triplet_subsequence">
     <configuration default="false" name="337_combination_sum_iv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -250,6 +233,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/398_random_pick_index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="334_increasing_triplet_subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/334_increasing_triplet_subsequence.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -389,19 +389,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.15_3sum" />
-      <item index="1" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
-      <item index="2" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
-      <item index="3" class="java.lang.String" itemvalue="Python.477_total_hamming_distance" />
-      <item index="4" class="java.lang.String" itemvalue="Python.398_random_pick_index" />
+      <item index="0" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
+      <item index="1" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
+      <item index="2" class="java.lang.String" itemvalue="Python.477_total_hamming_distance" />
+      <item index="3" class="java.lang.String" itemvalue="Python.398_random_pick_index" />
+      <item index="4" class="java.lang.String" itemvalue="Python.334_increasing_triplet_subsequence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.398_random_pick_index" />
-        <item index="1" class="java.lang.String" itemvalue="Python.477_total_hamming_distance" />
-        <item index="2" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
-        <item index="3" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
-        <item index="4" class="java.lang.String" itemvalue="Python.15_3sum" />
+        <item index="0" class="java.lang.String" itemvalue="Python.334_increasing_triplet_subsequence" />
+        <item index="1" class="java.lang.String" itemvalue="Python.398_random_pick_index" />
+        <item index="2" class="java.lang.String" itemvalue="Python.477_total_hamming_distance" />
+        <item index="3" class="java.lang.String" itemvalue="Python.461_hamming_distance" />
+        <item index="4" class="java.lang.String" itemvalue="Python.337_combination_sum_iv" />
       </list>
     </recent_temporary>
   </component>
@@ -829,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/334_increasing_triplet_subsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="650">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
