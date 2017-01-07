@@ -48,7 +48,7 @@ class Solution(object):
                 done = True
         return None
 
-    # compact way of soln 1
+    # compact way of soln 1. Time: O(n)
     def inorderSuccessor2(self, root, p):
         stack, flag = [], False
         while root or stack:
@@ -64,6 +64,44 @@ class Solution(object):
         return None
 
 
+    # iterative: Time: O(h)
+    def inorderSuccessor3(self, root, p):
+        succ = None
+        while root:
+            if p.val < root.val:
+                succ = root
+                root = root.left
+            else:
+                root = root.right
+        return succ
+
+    # inorderPredecessor: Time: O(n)
+    def inorderPredecessor(self, root, p):
+        stack, pre = [], None
+        while root or stack:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            if root == p:
+                return pre
+            else:
+                pre = root
+            root = root.right
+        return pre
+
+    # Time: O(h)
+    def inorderPredecessor2(self, root, p):
+        pre = None
+        while root:
+            if p.val > root.val:
+                pre = root
+                root = root.right
+            else:
+                root = root.left
+        return pre
+
+
 if __name__ == "__main__":
 
     root = TreeNode(5)
@@ -73,13 +111,26 @@ if __name__ == "__main__":
     root.left.right = TreeNode(4)
     root.right.left = TreeNode(6)
     root.right.right = TreeNode(8)
+    root.right.left.left = TreeNode(5.5)
+    root.right.left.right = TreeNode(6.5)
 
+    print "Test successor: "
     print Solution().inorderSuccessor(root, root.left.right).val
     print Solution().inorderSuccessor2(root, root.left.right).val
+    print Solution().inorderSuccessor3(root, root.left.right).val
 
     print Solution().inorderSuccessor(root, root.right.left).val
     print Solution().inorderSuccessor2(root, root.right.left).val
+    print Solution().inorderSuccessor3(root, root.right.left).val
 
     print Solution().inorderSuccessor(root, root.right.right)
     print Solution().inorderSuccessor2(root, root.right.right)
+    print Solution().inorderSuccessor3(root, root.right.right)
+
+    print "Test predecessor: "
+    print Solution().inorderPredecessor(root, root.right.left).val
+    print Solution().inorderPredecessor2(root, root.right.left).val
+    print Solution().inorderPredecessor(root, root.right).val
+    print Solution().inorderPredecessor2(root, root.right).val
+
 

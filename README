@@ -24,4 +24,6 @@ DISCUSSION:
 
 377: complexity analysis?
 
-78: subsets. How to use backtracking
+78: subsets. How to use backtracking.
+    https://discuss.leetcode.com/topic/46159/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partitioning
+    https://see.stanford.edu/materials/icspacs106b/H19-RecBacktrackExamples.pdf
