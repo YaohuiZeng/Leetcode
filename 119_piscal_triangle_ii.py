@@ -26,3 +26,19 @@ class Solution(object):
         for i in range(rowIndex + 1):
             res.append(self.get_elem(rowIndex, i))
         return res
+
+    def getRow2(self, rowIndex):
+        """
+        :type rowIndex: int
+        :rtype: List[int]
+        """
+        res = [0] * (rowIndex + 1)
+        res[0] = 1
+        for i in range(1, rowIndex+1):
+            for j in range(i, 0, -1):
+                res[j] += res[j-1]
+        return res
+
+if __name__ == "__main__":
+    print Solution().getRow(5)
+    print Solution().getRow2(5)

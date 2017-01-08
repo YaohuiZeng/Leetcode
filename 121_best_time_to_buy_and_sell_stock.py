@@ -16,33 +16,11 @@ Output: 0
 In this case, no transaction is done, i.e. max profit = 0.
 
 """
-import sys
 
 class Solution(object):
 
-    def maxProfit(self, prices):
-        """
-        :type prices: List[int]
-        :rtype: int
-        """
-        n = len(prices)
-        if n <= 1:
-            return 0
-        min_former, max_latter = [0]*(n-1), [0]*(n-1)
-        min_former[0] = prices[0]
-        max_latter[-1] = prices[-1]
-        max_profile = 0
-        for i in range(1, n-1):
-            min_former[i] = min(prices[i], min_former[i-1])
-        for i in range(n-3, -1, -1):
-            max_latter[i] = max(prices[i+1], max_latter[i+1])
-        for i in range(n-1):
-            if max_latter[i] - min_former[i] > max_profile:
-                max_profile = max_latter[i] - min_former[i]
-        return max_profile
-
     def maxProfit2(self, prices):
-        min_price = sys.maxsize
+        min_price = float("inf")
         max_profit = 0
         for p in prices:
             if p < min_price:
