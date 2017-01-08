@@ -21,13 +21,10 @@ Algorithm: brute-force. Time: O(n^2), space: O(1)
 observation:
     (1) the optimal subarray must be starting and ending with positive (non-negative); otherwise, we can chop off that number to produce a better one. (Wrong. Because could all be negative numbers)
     (2) Suppose the subarray is A[i:j), where 0<=i<=j<=n, then it must be that A[:i) <= 0 and A[j:) <= 0 (right)
-    (3) max_sum = sum(A) - sum(A[:i)) - sum(A[j:))
-
 
 Algorithm 2: Kandane's algorithm. Time: O(n); Space: O(1)
 
 """
-
 
 class Solution(object):
     def maxSubArray(self, nums):
@@ -35,7 +32,6 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-
         # soln 1:
         n = len(nums)
         max_sum = -float("inf")
@@ -48,9 +44,7 @@ class Solution(object):
 
     def maxSubArray2(self, nums):
         i, n = 0, len(nums)
-        sum_i = 0
-        max_sum_i = -float("inf")
-
+        sum_i, max_sum_i = 0, -float("inf")
         while i < n:
             sum_i += nums[i]
             max_sum_i = max(max_sum_i, sum_i)
@@ -61,10 +55,8 @@ class Solution(object):
         return max_sum_i
 
 if __name__== "__main__":
-
     nums = [-2,1,-3,4,-1,2,1,-5,4]
-    nums = [-1, -2, -3]
-    nums = [1, 2, 3]
-
+    # nums = [-1, -2, -3]
+    # nums = [1, 2, 3]
     print Solution().maxSubArray(nums)
     print Solution().maxSubArray2(nums)

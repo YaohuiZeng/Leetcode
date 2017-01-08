@@ -40,32 +40,6 @@ class Solution(object):
                 res.append(num)
                 lookup[num] -= 1
         return res
-        """
-        # soln 1: hash table, 78 ms
-        n1, n2 = len(nums1), len(nums2)
-        hash1, hash2 = {}, {}
-        res = []
-        for num in nums1:
-            if num in hash1:
-                hash1[num] += 1
-            else:
-                hash1[num] = 1
-        for num in nums2:
-            if num in hash2:
-                hash2[num] += 1
-            else:
-                hash2[num] = 1
-
-        if n1 <= n2:
-            for num in hash1.keys():
-                if num in hash2.keys():
-                    res.extend([num] * min(hash1[num], hash2[num]))
-        else:
-            for num in hash2.keys():
-                if num in hash1.keys():
-                    res.extend([num] * min(hash1[num], hash2[num]))
-        return res
-        """
 
     def intersect2(self, nums1, nums2):
         # soln 2; sorted arrays, 65 ms

@@ -4,9 +4,9 @@ DISCUSSION:
 
 121: how to use dynamic programming
 
-161: O(n) time and O(1) space: https://discuss.leetcode.com/topic/8692/o-n-time-o-1-space-fastest-solution
+169: O(n) time and O(1) space: https://discuss.leetcode.com/topic/8692/o-n-time-o-1-space-fastest-solution
 
-189: what is the space complexity of soln 1?
+189: what is the space complexity of soln 1? Should be O(n)!!!
 
 349: check other solution: https://github.com/kamyu104/LeetCode/blob/master/Python/intersection-of-two-arrays.py
 

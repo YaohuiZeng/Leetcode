@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 
 Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
@@ -20,6 +22,5 @@ class Solution(object):
                 nums_dict[nums[i]] += 1
             else:
                 nums_dict[nums[i]] = 1
-            if i >= major:
-                if nums_dict[nums[i]] > major:
-                    return nums[i]
+            if nums_dict[nums[i]] > major:
+                return nums[i]
