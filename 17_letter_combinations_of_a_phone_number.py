@@ -11,7 +11,7 @@ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 
 """
 
-## Assume no 0 nor 1 in input digits.
+## Assume no 0 nor 1 in input digits. Time: O(4^n), if input only includes 7 and/or 9
 class Solution(object):
     def letterCombinations(self, digits):
         """
