@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 
 Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
@@ -16,6 +18,12 @@ Output:
 
 """
 
+"""
+Algorithm:
+    (1) For each number i in nums, mark the number that i points as negative.
+    (2) Then get all the indices who points to a positive number. These indices are not visited.
+
+"""
 
 class Solution(object):
     def findDisappearedNumbers(self, nums):
@@ -23,18 +31,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        """
-        nums_map = {key: None for key in nums}
-        res = []
-        for i in range(1, len(nums)+1):
-            if not i in nums_map:
-                res.append(i)
-        return res
-        """
-        res = []
         for i in range(len(nums)):
-                nums[abs(nums[i]) - 1] = - abs(nums[abs(nums[i]) - 1])
-        for i in range(len(nums)):
-            if nums[i] > 0:
-                res.append(i + 1)
+            ind = abs(nums[i]) - 1
+            nums[ind] = - abs(nums[ind])
+        res = [i+1 for i, num in enumerate(nums) if num > 0]
         return res
