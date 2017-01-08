@@ -29,17 +29,16 @@ What limitation we need to add to the question to allow negative numbers?
 
 """
 Algorithm: dynamic programming
-
 """
 
 class Solution(object):
+    # top-down
     def combinationSum4(self, nums, target):
         """
         :type nums: List[int]
         :type target: int
         :rtype: int
         """
-
         def comb(nums, target, lookup):
             res = 0
             if target == 0:
@@ -56,12 +55,21 @@ class Solution(object):
                     lookup[target - num] = val
                     res += val
             return res
-
         nums.sort()
         lookup = {}
         return comb(nums, target, lookup)
+
+    # bottom-up
+    def combinationSum4_2(self, nums, target):
+        comb = [1] + [0] * target
+        for i in range(1, 1+target):
+            for num in nums:
+                if i - num >= 0:
+                    comb[i] += comb[i-num]
+        return comb[target]
 
 if __name__ == "__main__":
     nums = [4, 2, 1]
     target = 32
     print Solution().combinationSum4(nums, target)
+    print Solution().combinationSum4_2(nums, target)

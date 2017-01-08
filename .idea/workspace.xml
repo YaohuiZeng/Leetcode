@@ -30,11 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="350_intersection_of_two_arrays_ii.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="350_intersection_of_two_arrays_ii.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/350_intersection_of_two_arrays_ii.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
               <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="377_combination_sum_iv.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/377_combination_sum_iv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,7 +165,6 @@
         <option value="$PROJECT_DIR$/15_3sum.py" />
         <option value="$PROJECT_DIR$/286_walls_and_gates.py" />
         <option value="$PROJECT_DIR$/337_combination_sum_iv.py" />
-        <option value="$PROJECT_DIR$/377_combination_sum_iv.py" />
         <option value="$PROJECT_DIR$/461_hamming_distance.py" />
         <option value="$PROJECT_DIR$/477_total_hamming_distance.py" />
         <option value="$PROJECT_DIR$/398_random_pick_index.py" />
@@ -173,6 +182,7 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/169_majority_element.py" />
         <option value="$PROJECT_DIR$/350_intersection_of_two_arrays_ii.py" />
+        <option value="$PROJECT_DIR$/377_combination_sum_iv.py" />
       </list>
     </option>
   </component>
@@ -248,24 +258,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python_data_structure" />
   </component>
-  <component name="RunManager" selected="Python.53_maximum_subarray">
-    <configuration default="false" name="285_inorder_successor_in_BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/285_inorder_successor_in_BST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.377_combination_sum_iv">
     <configuration default="false" name="301_remove_invalid_parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,6 +323,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/53_maximum_subarray.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="377_combination_sum_iv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/377_combination_sum_iv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -469,19 +479,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.285_inorder_successor_in_BST" />
-      <item index="1" class="java.lang.String" itemvalue="Python.301_remove_invalid_parentheses" />
-      <item index="2" class="java.lang.String" itemvalue="Python.17_letter_combinations_of_a_phone_number" />
-      <item index="3" class="java.lang.String" itemvalue="Python.119_piscal_triangle_ii" />
-      <item index="4" class="java.lang.String" itemvalue="Python.53_maximum_subarray" />
+      <item index="0" class="java.lang.String" itemvalue="Python.301_remove_invalid_parentheses" />
+      <item index="1" class="java.lang.String" itemvalue="Python.17_letter_combinations_of_a_phone_number" />
+      <item index="2" class="java.lang.String" itemvalue="Python.119_piscal_triangle_ii" />
+      <item index="3" class="java.lang.String" itemvalue="Python.53_maximum_subarray" />
+      <item index="4" class="java.lang.String" itemvalue="Python.377_combination_sum_iv" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.53_maximum_subarray" />
-        <item index="1" class="java.lang.String" itemvalue="Python.119_piscal_triangle_ii" />
-        <item index="2" class="java.lang.String" itemvalue="Python.17_letter_combinations_of_a_phone_number" />
-        <item index="3" class="java.lang.String" itemvalue="Python.301_remove_invalid_parentheses" />
-        <item index="4" class="java.lang.String" itemvalue="Python.285_inorder_successor_in_BST" />
+        <item index="0" class="java.lang.String" itemvalue="Python.377_combination_sum_iv" />
+        <item index="1" class="java.lang.String" itemvalue="Python.53_maximum_subarray" />
+        <item index="2" class="java.lang.String" itemvalue="Python.119_piscal_triangle_ii" />
+        <item index="3" class="java.lang.String" itemvalue="Python.17_letter_combinations_of_a_phone_number" />
+        <item index="4" class="java.lang.String" itemvalue="Python.301_remove_invalid_parentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -760,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/377_combination_sum_iv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="36" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/286_walls_and_gates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -928,6 +930,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/377_combination_sum_iv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
