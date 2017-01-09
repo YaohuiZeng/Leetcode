@@ -51,8 +51,7 @@ class Solution(object):
         count = collections.Counter(s).most_common()
         return "".join(key * val for key, val in count)
 
-
-    # soln 2: use sorted function
+    # soln 2: use sorted function. Time: O(nlog(n)); space: O(n)
     def frequencySort2(self, s):
         # soln 2: sorted
         lookup = collections.defaultdict(int)
@@ -60,6 +59,22 @@ class Solution(object):
             lookup[c] += 1
         count = sorted(lookup.items(), key=lambda x: x[1], reverse=True)
         return "".join(key * val for key, val in count)
+
+    # soln 3: build another list of substrings in which the index is the frequency of the characters (in the substring).
+    #       Time: O(n); Space: O(n)
+    def frequencySort3(self, s):
+        lookup = collections.defaultdict(int)
+        for c in s:
+            lookup[c] += 1
+        count = [""] * (len(s)+1)
+        for k in lookup:
+            count[lookup[k]] += k
+        res = ""
+        for i in range(len(count)-1, -1, -1):
+            if count[i] == "": continue
+            for c in count[i]:
+                res += c * i
+        return res
 
 if __name__ == "__main__":
 
