@@ -23,27 +23,35 @@ Could you come up with an one-pass algorithm using only constant space?
 class Solution(object):
 
     # insertion sort
-
     def sortColors(self, nums):
         """
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
         """
-
         n = len(nums)
         for i in range(1, n):
-            for j in range(i, 0, -1):
-                if nums[j] < nums[j - 1]:
-                    tmp = nums[j - 1]
-                    nums[j - 1] = nums[j]
-                    nums[j] = tmp
+            j = i
+            while j and nums[j] < nums[j-1]:
+                nums[j], nums[j-1] = nums[j-1], nums[j]
+                j -= 1
 
 
     def sortColors2(self, nums):
-
         # bubble sort
         n = len(nums)
         for i in range(0, n-1):
             for j in range(1, n-i):
                 if nums[j] < nums[j-1]:
                     nums[j], nums[j-1] = nums[j-1], nums[j]
+
+    # one pass: three pointers
+    def sortColors3(self, nums):
+        n = len(nums)
+        zero, second = 0, n-1
+        for i in xrange(n):
+            while nums[i] == 2 and i < second:
+                nums[i], nums[second] = nums[second], nums[i]
+                second -= 1
+            while nums[i] == 0 and i > zero:
+                nums[i], nums[zero] = nums[zero], nums[i]
+                zero += 1

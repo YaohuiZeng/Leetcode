@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07726566-7d84-4ab5-a81b-deade553b88b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/451_sort_characters_by_frequency.py" afterPath="$PROJECT_DIR$/451_sort_characters_by_frequency.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/75_sort_colors.py" afterPath="$PROJECT_DIR$/75_sort_colors.py" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="350_intersection_of_two_arrays_ii.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/350_intersection_of_two_arrays_ii.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="377_combination_sum_iv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/377_combination_sum_iv.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="451_sort_characters_by_frequency.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="451_sort_characters_by_frequency.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/451_sort_characters_by_frequency.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="871">
               <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="75_sort_colors.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/75_sort_colors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -138,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/266_palindrome_permutation.py" />
         <option value="$PROJECT_DIR$/136_single_number.py" />
         <option value="$PROJECT_DIR$/2_add_two_numbers.py" />
         <option value="$PROJECT_DIR$/258_add_digits.py" />
@@ -189,6 +187,7 @@
         <option value="$PROJECT_DIR$/17_letter_combinations_of_a_phone_number.py" />
         <option value="$PROJECT_DIR$/203_remove_linked_list_elements.py" />
         <option value="$PROJECT_DIR$/451_sort_characters_by_frequency.py" />
+        <option value="$PROJECT_DIR$/75_sort_colors.py" />
       </list>
     </option>
   </component>
@@ -556,13 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/463_island_perimeter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="97" column="30" selection-start-line="97" selection-start-column="30" selection-end-line="97" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/266_palindrome_permutation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -920,6 +912,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="871">
           <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/75_sort_colors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
           <folding />
         </state>
       </provider>
