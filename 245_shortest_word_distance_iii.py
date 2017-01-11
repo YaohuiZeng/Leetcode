@@ -27,20 +27,19 @@ class Solution(object):
         :type word2: str
         :rtype: int
         """
-        word1_idx, word2_idx = float("inf"), float("inf")
-        dist = len(words) - 1
+        word1_idx, word2_idx, n = float("inf"), float("inf"), len(words)
+        dist = n - 1
         if word1 == word2:
-            for i, w in enumerate(words):
-                if w == word1:
+            for i in xrange(n):
+                if words[i] == word1:
                     dist = min(dist, abs(i - word1_idx))
                     word1_idx = i
             return dist
         else:
-            for i, w in enumerate(words):
-                if w == word1:
+            for i in xrange(n):
+                if words[i] == word1:
                     word1_idx = i
-                elif w == word2:
+                elif words[i] == word2:
                     word2_idx = i
-                if word1_idx != float("inf") and word2_idx != float("inf"):
-                    dist = min(dist, abs(word1_idx - word2_idx))
-        return dist
+                dist = min(dist, abs(word1_idx - word2_idx))
+            return dist

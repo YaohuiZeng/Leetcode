@@ -26,14 +26,12 @@ class Solution(object):
         :type word2: str
         :rtype: int
         """
-        n = len(words)
-        word1_idx, word2_idx = None, None
+        word1_idx, word2_idx, n = float("inf"), float("inf"), len(words)
         distance = n-1
-        for i, w in enumerate(words):
-            if w == word1:
+        for i in xrange(n):
+            if words[i] == word1:
                 word1_idx = i
-            elif w == word2:
+            elif words[i] == word2:
                 word2_idx = i
-            if word1_idx is not None and word2_idx is not None:
-                distance = min(distance, abs(word1_idx-word2_idx))
+            distance = min(distance, abs(word1_idx-word2_idx))
         return distance

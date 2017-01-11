@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07726566-7d84-4ab5-a81b-deade553b88b" name="Default" comment="update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/245_shortest_word_distance_ii.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/245_shortest_word_distance_ii.py" afterPath="$PROJECT_DIR$/245_shortest_word_distance_iii.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/243_shortest_word_distance.py" afterPath="$PROJECT_DIR$/243_shortest_word_distance.py" />
     </list>
     <ignored path="Leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,21 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="243_shortest_word_distance.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="243_shortest_word_distance.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/243_shortest_word_distance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="612">
+              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="245_shortest_word_distance_ii.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/245_shortest_word_distance_ii.py">
+      <file leaf-file-name="245_shortest_word_distance_iii.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/245_shortest_word_distance_iii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -147,8 +148,8 @@
         <option value="$PROJECT_DIR$/451_sort_characters_by_frequency.py" />
         <option value="$PROJECT_DIR$/75_sort_colors.py" />
         <option value="$PROJECT_DIR$/15_3sum.py" />
-        <option value="$PROJECT_DIR$/243_shortest_word_distance.py" />
         <option value="$PROJECT_DIR$/245_shortest_word_distance_ii.py" />
+        <option value="$PROJECT_DIR$/243_shortest_word_distance.py" />
       </list>
     </option>
   </component>
@@ -890,18 +891,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/243_shortest_word_distance.py">
+    <entry file="file://$PROJECT_DIR$/245_shortest_word_distance_iii.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="323">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/245_shortest_word_distance_ii.py">
+    <entry file="file://$PROJECT_DIR$/243_shortest_word_distance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="612">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
           <folding />
         </state>
       </provider>
